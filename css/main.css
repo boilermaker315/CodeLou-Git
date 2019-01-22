@@ -1,63 +1,41 @@
 */
 
-.msg {
-  padding: 10px;
-  background: #222;
-  position: relative;
-}
-
-.msg h1 {  color: #fff }
-
-.msg a {
-  margin-left: 20px;
-  background: #408814;
-  color: white;
-  padding: 4px 8px;
-  text-decoration: none;
-}
-
-.msg a:hover {  background: #266400 }
-
-html {
-  height: 100% ! important;
-  background: url('../images/low_contrast_linen.png');
-}
-
-/* //-- yui-grids style overrides -- */
-
 body {
+  text-align: center;
   font-family: Georgia, Garamond, "Times New Roman", Times, serif;
-  color: rgb(53, 2, 2);
+  text-transform: uppercase;
+
 }
-
-.yui-gf {
-  margin-bottom: 2em;
-  padding-bottom: 2em;
-  border-bottom: 1px solid #ccc;
+.content {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: aqua;
 }
-
-.yui-gf div.first {  width: 12.3% }
-
-.yui-gf .yui-u {  width: 80.2% }
+h2 {
+  text-align: center;
+  font-family: Georgia, Garamond, "Times New Roman", Times, serif;
+  padding:0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 10pt;
+  font-style: bold;
+}
 
 /* //-- header, body, footer -- */
 
 header {
-  margin: center;
-  padding-bottom: 1.5em;
-  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding-right: 700px;
+  padding-left: 700px;
 }
 
-header h1 {
-  font-size: 48px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-header h2 {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
+ p {
+    text-align: center;
+    font-size: 15pt;
+    font-family: Georgia, Garamond, "Times New Roman", Times, serif;
+    padding:0;
+  }
 
 article,
 footer {  margin-bottom: 2em }
@@ -70,10 +48,12 @@ footer p {
 /* //-- footer -- */
 
 footer {
-  padding: 1em 0 5em 0;
-  font-size: 92%;
-  border-top: 1px solid #ccc;
   text-align: center;
+  padding-right: 700px;
+  padding-left: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: aqua;
 }
 
 /* //-- core typography and style -- */

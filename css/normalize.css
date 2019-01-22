@@ -16,9 +16,17 @@ html {
  * Remove default margin.
  */
 
+}
 body {
-  width: 80%;
-  margin: center;
+      max-width: 500px;
+      width: 80%;
+      margin: center;
+}
+header {
+  text-align: center;
+         }
+h1 {
+     text-align: center;
 }
 
 /* HTML5 display definitions
