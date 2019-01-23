@@ -11,8 +11,7 @@ header {
 }
 body {
   
-  text-align: center;
-  font-family: Georgia, Garamond, "Times New Roman", Times, serif;
+   font-family: Georgia, Garamond, "Times New Roman", Times, serif;
   
 
 }
@@ -22,7 +21,7 @@ h1 {
 }
 
 .content {
-    text-align: center;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: lightskyblue
@@ -34,7 +33,6 @@ h2 {
   padding:0;
   margin-top: 0px;
   margin-bottom: 0px;
-  text-colo
   font-size: 15pt;
   font-style: bold;
 }
@@ -49,6 +47,7 @@ p {
   margin-left: 15px;
   margin-right: 10px;
   text-align: left;
+  display: inline-block;
 }
 h3 { 
   text-align: center
@@ -56,8 +55,7 @@ h3 {
   padding:0;
   margin-top: 0px;
   margin-bottom: 0px;
-  text-colo
-  font-size: 15pt;
+   font-size: 15pt;
   font-style: bold;
 }
  p {
@@ -66,30 +64,17 @@ h3 {
     font-family: Georgia, Garamond, "Times New Roman", Times, serif;
     padding:0;
   }
-  .wrapper {
-    text-align: left;
-    display: inline;
-
-  }
 
 
-footer p {
-  margin-bottom: 0;
-  text-align: center;
-}
+
 
 /* //-- footer -- */
-.wrap { 
-  mid-height:100vh
-  background-color: navy;;
-}
-footer {
-  text-align: center;
-  padding-right: 700px;
-  padding-left: 700px;
-  
-  background-color: navy;
-}
+.edu {
+  background-color: lightskyblue;
+  margin-right: auto;
+  margin-left: auto;
+    }
+
 
 
 @media screen and (max-width: 59.9em) {
@@ -104,37 +89,11 @@ footer {
 
 }
 
-}
 
-.main-header {
-	padding-right: 700px;
-  padding-left: 700px;
-  background-color: aqua;
-}
 
-.main-footer { 
-	text-align: center;
-	padding: 2em 0;
-	background: #d9e4ea;
-}
 
-/* ================================= 
-  Media Queries
-==================================== */
 
-@media (min-width: 769px) {
 
-	.wrap {
-		min-height: calc(100vh - 89px);
-	}
-
-	.container {
-		width: 70%;
-		max-width: 1000px;
-		margin: 0 auto;
-	}
-
-}
 
 
 

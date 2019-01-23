@@ -20,13 +20,6 @@ html {
 body {
       max-width: 500px;
       width: 80%;
-      margin: center;
-}
-header {
-  text-align: center;
-         }
-h1 {
-     text-align: center;
 }
 
 
@@ -41,21 +34,6 @@ h1 {
  * Correct `block` display not defined for `main` in IE 11.
  */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -152,10 +130,7 @@ h1 {
  * Address styling not present in IE 8/9.
  */
 
-mark {
-  background: #ff0;
-  color: #000;
-}
+
 
 /**
  * Address inconsistent and variable font size in all browsers.
