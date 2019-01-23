@@ -1,47 +1,82 @@
-/* ================================= 
-  Base Element Styles
-==================================== */
-
-* {
-  box-sizing: border-box;
-}
+*/
 
 body {
-	margin: 0 auto;
-	line-height: 1.6;
-	color:#3c6814;
+  text-align: center;
+  font-family: Georgia, Garamond, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+
+}
+.content {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: aqua;
+}
+h2 {
+  text-align: center;
+  font-family: Georgia, Garamond, "Times New Roman", Times, serif;
+  padding:0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 15pt;
+  font-style: bold;
 }
 
-h1 {
-	margin: 0 auto;
-	
+/* //-- header, body, footer -- */
+
+header {
+  text-align: center;
+  padding-right: 700px;
+  padding-left: 700px;
 }
 
-p
- {
-	margin-bottom: 0;
+ p {
+    text-align: center;
+    font-size: 15pt;
+    font-family: Georgia, Garamond, "Times New Roman", Times, serif;
+    padding:0;
+  }
+
+
+footer p {
+  margin-bottom: 0;
+  text-align: center;
 }
 
-a { 
-	color: #fff;
-	text-decoration: none;
+/* //-- footer -- */
+
+footer {
+  text-align: center;
+  padding-right: 700px;
+  padding-left: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: aqua;
 }
 
-/* ================================= 
-  Base Layout Styles
-==================================== */
 
-/* ---- Navigation ---- */
+@media screen and (max-width: 59.9em) {
+  #inner {
+    padding: 5 5 5 5;
+    margin: 0 auto;
+    background: #f5f5f5;
+    border: solid #666;
+    border-width: 8px 0 2px 0;
+    box-shadow: 0 1px 3px #000;
+  }
 
-.name {
-  margin: 0;
+
+@media screen and (min-width: 60em) {
+  #inner {
+    padding: 10px 80px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    border: solid #666;
+    border-width: 8px 0 2px 0;
+    box-shadow: 0 1px 3px #000;
+  }
 }
 
-/* ---- Layout Containers ---- */
-
-.container {
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 .main-header {
