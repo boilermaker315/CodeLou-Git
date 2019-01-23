@@ -16,12 +16,16 @@ body {
   
 
 }
-.content {
+
+h1 {
   text-transform: uppercase;
-  text-align: center;
+}
+
+.content {
+    text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: navy;
+  background-color: lightskyblue
 }
 h2 {
   
@@ -62,12 +66,11 @@ h3 {
     font-family: Georgia, Garamond, "Times New Roman", Times, serif;
     padding:0;
   }
+  .wrapper {
+    text-align: left;
+    display: inline;
 
-  .disc{
-  display: inline;
-  list-style-type: disc;
-  text-align: left;
-}
+  }
 
 
 footer p {
