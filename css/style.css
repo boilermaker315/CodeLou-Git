@@ -69,52 +69,18 @@ h3 {
 /*
 ********links to projects*********
 */
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
+ 
 
 /* //-- footer -- */
 .edu {
   background-color: lightskyblue;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 700px;
-  padding-left: 700px;
+  max-width: 1150px;
   text-align: left;
 }
 
-@media screen and (max-width: 59.9em) {
-  #inner {
-    padding: 5 5 5 5;
-    margin: 0 auto;
-    background: #f5f5f5;
-    border: solid #666;
-    border-width: 8px 0 2px 0;
-    box-shadow: 0 1px 3px #000;
-  }
 
-}
 
 
 
