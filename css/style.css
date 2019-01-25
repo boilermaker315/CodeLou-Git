@@ -46,23 +46,32 @@ p {
 ******* Hovering links to projects******
 */
 
-h3 {
-    margin-right: auto;
-    margin-left: auto;
-  }
-.projectLinks { 
+
+  h3,
+.links { 
   font-family: Georgia, Garamond, "Times New Roman", Times, serif;
   font-size: 15pt;
   font-style: bold;
 }
 
 h3,
-.projectLinks, 
-.projectLinks li {
+.links, 
+.links li {
   display: inline-block;
 }
 
+.links a:hover{
+  color:purple;
+}
 
+h3 a,
+.links a {
+  padding: 10px 15px;
+  display: block;
+}
+.projectlinks {
+  min-height: 100vh;
+}
 
 /*
 ********links to projects*********
