@@ -53,7 +53,7 @@ p {
   font-size: 15pt;
   font-style: bold;
 }
-
+.h3{ display:block; }
 h3,
 .links, 
 .links li {
@@ -88,7 +88,13 @@ footer {
 }
 
 
+/*
+******Media Queries****
+*/
 
+@media (min-width:769px) {
+
+}
 
 
 
