@@ -42,28 +42,20 @@ p {
   font-family: Georgia, Garamond, "Times New Roman", Times, serif;
   padding:0;
 }
+/* 
+******* Hovering links to projects******
+*/
 
-.wrapper {
+.h3 {
     margin-right: auto;
     margin-left: auto;
-    display: block;
-    padding: 8px;
     background-color: #dddddd;
   }
-h3 { 
+.projectLinks { 
   font-family: Georgia, Garamond, "Times New Roman", Times, serif;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-   font-size: 15pt;
+  font-size: 15pt;
   font-style: bold;
 }
- p {
-   
-    font-size: 15pt;
-    font-family: Georgia, Garamond, "Times New Roman", Times, serif;
-    padding:0;
-  }
 
 
 /*
@@ -79,6 +71,7 @@ h3 {
   max-width: 1150px;
   text-align: left;
 }
+
 
 
 
