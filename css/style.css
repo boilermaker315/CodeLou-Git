@@ -46,16 +46,22 @@ p {
 ******* Hovering links to projects******
 */
 
-.h3 {
+h3 {
     margin-right: auto;
     margin-left: auto;
-    background-color: #dddddd;
   }
 .projectLinks { 
   font-family: Georgia, Garamond, "Times New Roman", Times, serif;
   font-size: 15pt;
   font-style: bold;
 }
+
+h3,
+.projectLinks, 
+.projectLinks li {
+  display: inline-block;
+}
+
 
 
 /*
@@ -64,11 +70,11 @@ p {
  
 
 /* //-- footer -- */
-.edu {
+footer {
   background-color: lightskyblue;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1150px;
+  max-width: 7000px;
   text-align: left;
 }
 
